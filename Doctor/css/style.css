@@ -1,0 +1,608 @@
+
+body {
+    margin :0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+ 
+header .container nav{
+    display: flex ;
+    justify-content: space-between ; 
+    align-items: center;
+    text-align: center;
+    height: 60px;
+}
+.container a{
+    color: #4a4e88;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container a h2 {
+    
+      font-family: 'Architects Daughter', cursive;
+      font-size: 20px;
+}
+
+header ul {
+margin: 0;
+padding :0;
+list-style: none;
+display: flex ;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+} 
+ main .photo{
+      width: 1349px;
+      height: 600px; 
+      margin :0 0 0 0;
+      background-image: url(../image/big.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.word-photo{
+    font-family: 'Cairo', sans-serif;
+    padding-top: 300px; 
+    padding-left: 80px;
+}
+.word-photo h2{
+    color: #9a9fe0;
+    font-size: 30px;
+    padding-right: 878px;
+}
+.word-photo span{
+    color:  #4a4e88;
+}
+.word-photo p{
+  padding-top: 15px ;
+    font-size: 20px;
+    color: #4a4e88;
+    padding-bottom: 10px;
+}
+.word-photo a{
+    color: #fff ;
+    
+    
+}
+.read-more{
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px; 
+    font-weight: 700;
+    background-color: #4a4e88;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.partTwo{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Diagnose{
+    height: 185px;
+    border: 1px solid #fffcfc;
+    width: 230px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+.Diagnose:hover {
+    background-color: #c4c7ee;
+  }
+.partTwo h2{
+    padding-top: 8px;
+    text-align: center;
+    color: #4a4e88;
+    font-size: 20px;
+}
+.partTwo p{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 16px;
+    height: 100px;
+}
+.icons{
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #9a9fe0;
+    font-size: 35px;
+}
+
+
+
+
+.about-us-in-home{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+main .about-photo img{
+    width: 400px;
+}
+.about-parg{
+    width: 400px;
+    margin-right: 140px;
+}
+
+ .about-parg h5{
+    color: #4a4e88;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+.about-parg h6{
+    padding-bottom: 30px;
+    color:#9a9fe0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+  
+}
+
+.about-parg p{
+    font-family: 'Cairo', sans-serif; 
+    font-size: 16px;
+    text-align: left;
+}
+
+ h3 {
+    text-transform: uppercase;
+    position: absolute; 
+    left: 40px;
+ }
+
+.back-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background:  #9a9fe0;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+   margin-top: 70px;
+   
+}
+
+
+ /*services*/
+ .Sone{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .Stwo{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .Sthree{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .Sfour{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .container .Services-card img{
+     width: 280px;
+     height: 250px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+ .Services-card a{
+     color: white;
+ }
+ .Services-card p,h2{
+    padding-left: 5px;
+}
+ .Services-card{
+    border-radius: 10px;
+    border-color: rgb(163, 159, 159);
+    box-shadow: 10px 10px 5px #e4e3e3;
+}
+ 
+.Services-card a .btnn{
+    padding-left: 10px;
+}
+ .btnn{
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px; 
+    font-weight: 700;
+    background-color: #4a4e88;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+/*team*/
+
+.doctor-team {
+    width: 1349px;
+    height: 600px; 
+    margin :0 0 0 0;
+    background-image: url(../image/big.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-team{
+    padding-top: 350px; 
+    padding-left: 80px;
+    width: 480px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 20px;
+    color: #4a4e88;
+}
+.team-word{
+    margin-top: 80px;
+font-size: 17px;
+color: #4a4e88;
+}
+.team-word span{
+    font-size: 17px;
+    color:  #9a9fe0;
+    }
+.big-doctor{
+    display: flex;
+    justify-content: space-between;  
+}
+.doctor{
+    display: flex;
+    justify-content: space-between;
+}
+.Doctors-data{
+    margin-top: 80px;
+}
+
+.Doctors-data img{
+    width: 260px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}    
+.dr{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 260px;
+    border-radius: 10px;
+    border-color: rgb(163, 159, 159);
+    box-shadow: 10px 10px 5px #e4e3e3;
+}
+.name h4{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+.name p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+}
+.Doctors-data .dr .dr-social ul{
+    list-style: none;
+}
+
+/*gallery*/
+
+.gallery{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery2{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.gallery img{
+    width: 270px;
+    height: 200px;
+}
+.gallery2 img{
+    width: 270px;
+    height: 200px;
+}
+.gallery .parag{
+    width: 270px;
+}
+.gallery2 .parag{
+    width: 270px;
+    text-align: center;
+}
+.gallery .parag p{
+    width: 200px;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.gallery2 .parag p{
+    width: 200px;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.icon{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #9a9fe0;
+    font-size: 26px;
+    
+    
+}
+
+.title h2{
+    margin-top: 100px;
+   color: #4a4e88;
+    font-family: 'Vollkorn', serif;
+    font-size: 35px;
+    margin-right: 940px;
+}
+.vid{
+margin-top: 60px;
+}
+ /*FAQ*/
+
+ .Fone{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif; 
+    
+} 
+
+.Fone h4{
+    font-family: 'Dela Gothic One', cursive;
+    color: #9a9fe0;
+}
+
+.Fone p{
+    color: #4a4e88;
+    margin-top:20px;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif; 
+    margin-bottom: 30px;
+    
+} 
+
+.all .photo{
+    width: 1349px;
+    height: 600px; 
+    margin :0 0 0 0;
+    background-image: url(../image/Q.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.accordion-container{
+    position: relative;
+    max-width: 600px;
+    height: auto;
+    margin: 10px auto;
+   
+  }
+  
+  .set{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+  }
+  .set > p{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+  }
+  .set > p i{
+    float: right;
+    margin-top: 2px;
+  }
+  .set > p.active{
+    background-color:#67c9e0;
+    color: #fff;
+  }
+  .content{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display:none;
+  }
+  .content p{
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 13px;
+    color: black;
+  }
+
+
+
+  /* contact*/
+  .contact-p{
+    margin-top: 100px;
+    text-align: center;
+    color: #9a9fe0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+.background-contact{
+    background-color: #dcdfff;
+}
+  .cont{
+      padding: 80px 0px;
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .cont ul{
+      list-style: none;
+  }
+
+ .cont table{
+    color: #4a4e88;
+    font-family: 'Cairo', sans-serif; 
+    font-size: 15px;
+}
+
+caption {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: top;
+}
+
+
+  /*data-for-Patient*/
+.Patient h1{
+      margin: 60px 0px;
+      color: #9a9fe0;
+  }
+
+/*login*/
+.photo-and-form{
+    width: 100%;
+    height: 350px;
+    background: url(../image/loginwow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container-img{
+    margin-top: 150px;
+    width: 60%;
+    margin: auto;
+}
+
+.dr-login h1{
+    margin: 35px 0px;
+    color: #4a4e88;
+    padding-right: 100px;
+  
+}
+.dr-login input{
+    width: 300px;
+}
+.dr-login form{
+    margin-top: 100px;
+    width: 400px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+}
+
+.btn a{
+    color:white ;
+    text-decoration: none;
+}
+
+  /*footer*/
+
+ footer{
+    height: 355px;
+    background: url(../image/image-footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1348px;
+    height: 350px;
+    box-sizing: border-box; 
+}
+
+footer ul{
+    list-style: none;
+    margin-top: 90px;
+    margin-left: 70px;
+   
+    text-decoration: none;
+    
+}
+
+footer .footer-content-part1 ul li a {
+    color: #4a4e88;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+}
+.footer-content-part1{
+
+    display: flex;
+
+}
+footer .Copyright{
+    display: flex;
+    text-align: center;
+    margin-top: 325px;
+    color: #4a4e88;
+    margin-right: 530px;
+    font-size: 11px;
+}
+footer .Copyright a{
+    text-decoration: none;
+    color: #4a4e88;
+   
+}
